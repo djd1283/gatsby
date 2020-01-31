@@ -311,7 +311,7 @@ function ResearchProjectSection(props) {
 
         <h2 style={desc_style}> Adversarial Text Generation Without Reinforcement Learning </h2>
 
-        <a style={text_style} href="https://arxiv.org/abs/1810.06640"> Paper </a><a style={text_style} href="https://github.com/text-machine-lab/cic/tree/development/models"> Github </a>
+        <a style={text_style} href="https://arxiv.org/abs/1810.06640"> Paper </a><a style={text_style} href="https://github.com/text-machine-lab/cic/"> Github </a>
 
         <p style={text_style}> When observing the output of recurrent neural networks (RNN) on the conversational dialogue task, it is often observed
         that generated responses are grammatical but nonsensical. We hypothesize that a major problem of RNN language generation is the next-word prediction
