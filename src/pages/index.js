@@ -155,7 +155,7 @@ function AboutMeSection(props) {
       <div style={strip_style}></div>
       <div style={section_style}>
         <h1 style={text_style}> About Me </h1>
-        <p style={desc_style}> {"I am a current Master's student at the University of Massachusetts Lowell, having just received a double major degree \
+        <p style={desc_style}> {"I am a current Master's student at the University of Massachusetts Lowell (expected graduation May 2020), having just received a double major degree \
         in Electrical Engineering and Computer Science. I do research in the field of deep learning for Natural Language Processing (NLP). \
         In my free time I enjoy hiking and puns."} </p>
       </div>
@@ -176,7 +176,7 @@ function AchievementSection(props) {
     backgroundImage: "url(" + blue_background + ")",
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
-    height: '1200px',
+    height: 'auto',
     overflow: 'hidden',
   }
 
@@ -211,9 +211,13 @@ function AchievementSection(props) {
 
         {"Master's Degree in Computer Science (2019-present)"}
         <ul>
+          <li> GPA: 4.0 / 4.0 </li>
           <li> Algorithms </li>
           <li> Machine Learning </li>
           <li> Advanced Database Systems </li>
+          <li> Advanced Social Computing </li>
+          <li> Computer and Network Security </li>
+          <li> Computer Graphics </li>
         </ul>
         </p>
 
@@ -264,7 +268,7 @@ function ResearchProjectSection(props) {
     backgroundImage: "url(" + wood_background + ")",
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
-    height: '1500px',
+    height: 'auto',
     overflow: 'hidden',
   }
 
@@ -284,7 +288,9 @@ function ResearchProjectSection(props) {
 
         <h2 style={desc_style}> Injecting Hierarchy With U-Net Transformers </h2>
 
-        <a style={text_style} href="https://github.com/text-machine-lab/HierarchicalTransformer"> Github </a>
+
+
+        <a style={text_style} href="https://arxiv.org/abs/1910.10488"> Paper </a><a style={text_style} href="https://github.com/text-machine-lab/HierarchicalTransformer"> Github </a>
 
         <p style={text_style}> Recently, the Transformer architecture has dominated language generation tasks such as machine translation.
         However, the Transformer operates by performing per-token attention operations to produce contextual representations.
@@ -313,7 +319,7 @@ function ResearchProjectSection(props) {
 
         <h2 style={desc_style}> Honors Project: Memory-Augmented Recurrent Networks for Dialogue Coherence </h2>
 
-        <a style={text_style} href="https://github.com/text-machine-lab/dialogue-pytorch"> Github </a>
+        <a style={text_style} href="https://arxiv.org/abs/1910.10487"> Paper </a><a style={text_style} href="https://github.com/text-machine-lab/dialogue-pytorch"> Github </a>
 
         <p style={text_style}> Honors project as part of the completion of the undergrad Honors College requirements. In this work, we apply memory networks
         for the purpose of neural dialogue generation. Recurrent neural networks (RNN) such as the Long-Short Term Memory Network (LSTM) have difficulty
@@ -321,7 +327,7 @@ function ResearchProjectSection(props) {
 
         <h2 style={desc_style}> Class Project: Label-Conditioned Next-Frame Video Generation with Neural Flows </h2>
 
-        <a style={text_style} href="https://github.com/djd1283/glowvideogen"> Github </a>
+        <a style={text_style} href="https://arxiv.org/abs/1910.11106"> Paper </a><a style={text_style} href="https://github.com/djd1283/glowvideogen"> Github </a>
 
         <p style={text_style}> Computer vision class project. Generative Adversarial Networks (GAN) have achieved state-of-the-art in multiple image generation tasks.
         However, in local experiments we observe the GAN to be unstable for small batch sizes and large data spaces. The recent Glow model, a normalizing flow (NF),
@@ -346,7 +352,7 @@ function ResearchProjectSection(props) {
 
         <h2 style={desc_style}> Stock Prediction </h2>
 
-        <p style={text_style}> Stay Tuned! Stock prediction using Alpaca trading API and BERT article reader. </p>
+        <p style={text_style}> Stay Tuned! Stock prediction using Alpaca trading API. </p>
 
       </div>
     </div>
