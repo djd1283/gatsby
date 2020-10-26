@@ -155,8 +155,8 @@ function AboutMeSection(props) {
       <div style={strip_style}></div>
       <div style={section_style}>
         <h1 style={text_style}> About Me </h1>
-        <p style={desc_style}> {"I a master's graduate from the University of Massachusetts Lowell (graduated September 2020). Last year, I received a double degree \
-        in Electrical Engineering and Computer Science. I do research in the field of deep learning for Natural Language Processing (NLP). \
+        <p style={desc_style}> {"I am a master's graduate from the University of Massachusetts Lowell (graduated September 2020). Last year, I received a double degree \
+        in Electrical Engineering and Computer Science. I do research in the field of deep learning for Natural Language Processing (NLP) with a number of side projects across the machine learning field. \
         In my free time I enjoy hiking and puns."} </p>
       </div>
     </div>
@@ -202,7 +202,7 @@ function AchievementSection(props) {
         <h2 style={desc_style}> University of Massachusetts Lowell </h2>
 
         <p style={text_style}>
-        Degree in Electrical Engineering and Computer Science (2015-2019)
+        Bachelor's Degree in Electrical Engineering and Computer Science (2015-2019)
         <ul>
           <li>GPA: 3.970 / 4.0 </li>
           <li> Honors College </li>
