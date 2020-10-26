@@ -155,7 +155,7 @@ function AboutMeSection(props) {
       <div style={strip_style}></div>
       <div style={section_style}>
         <h1 style={text_style}> About Me </h1>
-        <p style={desc_style}> {"I am a current Master's student at the University of Massachusetts Lowell (expected graduation May 2020), having just received a double major degree \
+        <p style={desc_style}> {"I a master's graduate from the University of Massachusetts Lowell (graduated September 2020). Last year, I received a double degree \
         in Electrical Engineering and Computer Science. I do research in the field of deep learning for Natural Language Processing (NLP). \
         In my free time I enjoy hiking and puns."} </p>
       </div>
@@ -209,7 +209,7 @@ function AchievementSection(props) {
           <li> {"Recipient of Dean's Scholarship"} </li>
         </ul>
 
-        {"Master's Degree in Computer Science (2019-present)"}
+        {"Master's Degree in Computer Science (2019-2020)"}
         <ul>
           <li> GPA: 4.0 / 4.0 </li>
           <li> Algorithms </li>
@@ -352,7 +352,7 @@ function ResearchProjectSection(props) {
 
         <h2 style={desc_style}> Stock Prediction </h2>
 
-        <p style={text_style}> Stay Tuned! Stock prediction using Alpaca trading API. </p>
+        <p style={text_style}> Stay Tuned! Stock prediction on both technical and article indicators using Alpaca trading API and Polygon historical API. </p>
 
       </div>
     </div>
